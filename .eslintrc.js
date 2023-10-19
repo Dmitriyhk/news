@@ -33,6 +33,18 @@ module.exports = {
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': 'off',
     'no-underscore-dangle': 'off',
+    'trailing-comma': [
+      true,
+      {
+        singleline: 'never',
+        multiline: {
+          objects: 'never',
+          arrays: 'always',
+          functions: 'never',
+          typeLiterals: 'ignore',
+        },
+      },
+    ],
     'i18next/no-literal-string': [
       'error',
       {
